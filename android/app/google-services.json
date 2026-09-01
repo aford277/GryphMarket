@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478273097327",
+    "project_id": "gryphmarket-c77ab",
+    "storage_bucket": "gryphmarket-c77ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478273097327:android:765b5299799d51a0be079a",
+        "android_client_info": {
+          "package_name": "com.example.gryph_market"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApblh45vVntvRoY-gF2KL06TtCsEdOUdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
