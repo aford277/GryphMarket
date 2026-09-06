@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
+import 'my_listings_page.dart';
 import 'messages_page.dart';
 import 'profile_page.dart';
 
@@ -12,7 +13,7 @@ class MainShell extends StatefulWidget {
 
 class _MainShellState extends State<MainShell> {
   int _index = 0;
-  static const _pages = [HomePage(), MessagesPage(), ProfilePage()];
+  static const _pages = [HomePage(), MyListingsPage(), MessagesPage(), ProfilePage()];
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +24,7 @@ class _MainShellState extends State<MainShell> {
         onDestinationSelected: (value) => setState(() => _index = value),
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Home'),
+          NavigationDestination(icon: Icon(Icons.chat_bubble_outline), selectedIcon: Icon(Icons.chat_bubble), label: 'My Listings'),
           NavigationDestination(icon: Icon(Icons.chat_bubble_outline), selectedIcon: Icon(Icons.chat_bubble), label: 'Messages'),
           NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: 'Profile'),
         ],
